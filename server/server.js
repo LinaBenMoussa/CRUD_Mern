@@ -27,4 +27,4 @@ if (process.env.NODE_ENV != "production") {
   app.delete("/notes/:id", notesController.deleteNote);
   
   // Start our server
-  app.listen(process.env.PORT);
+  app.listen(3001);
